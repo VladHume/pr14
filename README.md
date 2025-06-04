@@ -44,6 +44,9 @@ gcc -Wall -o dynamic_timer dynamic_timer.c -lrt -pthread
 - Запуск програми: кожну секунду виводиться `Tick`
 - Введення в stdin нового числа (наприклад, `3`) — інтервал оновлюється на 3 секунди
 - Всі зміни виконуються без завершення або перезапуску програми
+  
+  ![image](https://github.com/user-attachments/assets/80a44b40-fbc9-4c55-8feb-58b7d29e93da)
+
 
 ---
 
