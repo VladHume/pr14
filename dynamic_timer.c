@@ -29,10 +29,11 @@ void* input_thread(void *arg) {
             timer_settime(timerid, 0, &its, NULL);
             pthread_mutex_unlock(&lock);
 
-            printf("Таймер оновлено: %d сек\n", new_interval);
+            printf("Timer updated: %d sec\n", new_interval);
         } else {
-            printf("Невірне значення. Введіть ціле число > 0\n");
+            printf("Invalid value. Please enter an integer > 0\n");
         }
+
     }
     return NULL;
 }
